@@ -22,7 +22,7 @@ let's start creating the landing page by adding two `iframes` to the page.
 
 the first `iframe` should contain a motivational video for runners from youtube. you can choose any video that inspires and motivates runners to participate in the race.
 
-the second `iframe` will display the london weather forecast. use the weather widget from meteoblue. please configure the widget to display the weather of london for 7 days, including the icon, minimum and maximum temperature, wind speed and direction.
+the second `iframe` will display the london weather forecast. use the weather widget from [meteoblue](https://www.meteoblue.com/en/weather/widget/setupday). please configure the widget to display the weather of london for 7 days, including the icon, minimum and maximum temperature, wind speed and direction.
 
 wrap each iframe in a block with an `iframe-container` class to further work with the styles.
 
