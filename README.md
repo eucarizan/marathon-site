@@ -6,6 +6,7 @@
   - [stages](#stages)
     - [1: embed iframes](#1-embed-iframes)
     - [2: style iframes with css](#2-style-iframes-with-css)
+    - [3: add disances and descriptions](#3-add-distances-and-descriptions)
 
 ## learning
 focus on htmls andc css: basic styles and positioning. use iframes to embed external content to your webpage. work with images and add animation.
@@ -65,6 +66,35 @@ finally, let's remove unnecessary controllers from the youtube `iframe`. `contro
 #### 2.3 examples
 
 ![stage 2 site for marathon design](./s02.png)
+
+</details>
+
+### 3: add distances and descriptions
+<details>
+<summary>add descriptions of distances and images to the project</summary>
+
+#### 3.1 description
+previously, you added youtube and weather `iframes` to the landing page and styled them using css. now it's time to add a list of distances along with their descriptions and images.
+
+create a new block with the `` class below the iframes. inside this block, add a header (`h2`) with the text `running distances` and an unordered list (`ul`) with five list items (`li`) with the `distance` class. each list item should contain an image, a title, and a description of the distance.
+
+>you can write content inside the lists section as per your choice. below given content is used in the example image.
+
+here are the details for each distance:
+- 1km, title `1km run`, the image is any fun running image, description: `this short and sweet 1km run is perfect for beginners or those who just want to have a bit of fun. whether you're looking to kickstart your fitness journey or simply enjoy a leisurely jog in the great outdoors, this distance is a great way to get started.`
+- 5km, title `5km run`, the image is any image related to a 5 km race, description: `with a distance of 5km, this run is a great challenge for beginner runners or those who want to improve their fitness. whether you're looking to increase your speed or endurance, this distance will test your limits and help you reach your goals.`
+- 10km, title `10km run`, the image is any image related to a 10 km race, description: `the 10km run is a great intermediate distance that offers a challenge to runners who have already tackled shorter races. with a mix of speed and endurance, this distance requires a bit more training and dedication, but the sense of accomplishment you'll feel at the finish line will be well worth it.`
+- 21km, title `half marathon`, the image is any image related to a half marathon, description: `the half marathon is a major milestone for runners and requires dedicated training to complete. at a distance of 21km, this run will push you to your limits both physically and mentally, but the feeling of crossing the finish line is an experience like no other.`
+- 42km, title `full marathon`, the image is any image related to a full marathon, description: `the full marathon is the ultimate challenge for runners and requires months of intense training to complete. with a distance of 42km, this run is not for the faint of heart, but for those who are willing to put in the time and effort, the feeling of crossing the finish line is a truly unforgettable experience.`
+
+#### 3.2 objectives
+1. create a block with class distance-container below iframes and add a h2 header with the text "running distances".
+2. create an unordered list with five list items with the distance class inside the distance-container block.
+3. put an image, title, and description for each distance.
+
+#### 3.3 examples
+
+![stage 3 site for marathon design](./s03.png)
 
 </details>
 
