@@ -7,6 +7,7 @@
     - [1: embed iframes](#1-embed-iframes)
     - [2: style iframes with css](#2-style-iframes-with-css)
     - [3: add disances and descriptions](#3-add-distances-and-descriptions)
+    - [4: content styling](#4-content-styling)
 
 ## learning
 focus on htmls andc css: basic styles and positioning. use iframes to embed external content to your webpage. work with images and add animation.
@@ -76,7 +77,7 @@ finally, let's remove unnecessary controllers from the youtube `iframe`. `contro
 #### 3.1 description
 previously, you added youtube and weather `iframes` to the landing page and styled them using css. now it's time to add a list of distances along with their descriptions and images.
 
-create a new block with the `` class below the iframes. inside this block, add a header (`h2`) with the text `running distances` and an unordered list (`ul`) with five list items (`li`) with the `distance` class. each list item should contain an image, a title, and a description of the distance.
+create a new block with the `distance-container` class below the iframes. inside this block, add a header (`h2`) with the text `running distances` and an unordered list (`ul`) with five list items (`li`) with the `distance` class. each list item should contain an image, a title, and a description of the distance.
 
 >you can write content inside the lists section as per your choice. below given content is used in the example image.
 
@@ -95,6 +96,31 @@ here are the details for each distance:
 #### 3.3 examples
 
 ![stage 3 site for marathon design](./s03.png)
+
+</details>
+
+### 4: content styling
+<details>
+<summary>add a button and the block title with a video to improve the style of the content you've added in the previous stage.</summary>
+
+#### 4.1 description
+in this stage, we will style the content added in the previous stage. we will adjust the fonts, align the text, and position the content to improve the overall visual appearance. we will also add a button and a title to the video block and style it. finally, we will adjust the layout of the running distances list by setting its maximum width and positioning it in the middle of the page from left to right. we will also adjust the position of the images in the list of items.
+
+#### 4.2 objectives
+- inside the block of youtube `iframe-container` class, place a block with the `video-overlay` class after the youtube `iframe`. this block should contain two tags: `h1` and `button`.
+- add a title with short motivated content about running in the h1 tag inside the `video-overlay` class. set the distance from top 150px (using the top property) and center align the text. make the text color white with a font size of 73px.
+- set width of `video-overlay` to 100vw and height equal to the height of `youtubeiframe`. you also have to center the container using flexbox and set the column direction to arrange the elements. the heading and button elements inside the `video-overlay` class must be evenly spaced with the button's text color as white.
+- for more readability, place the `video-overlay` block under the `iframe-container` block with youtube iframe using `absolute` positioning and add a black background with 50% transparency.
+- add a button to the video block with padding 5px 10px, a white border (4px) and white color, a transparent background, and text that says `join us!`. the font size is 24px.
+- add the `roboto, helvetica neue, arial, sans-serif` fonts for the whole page.
+- style the list with running distances (`distance-container`) by giving it a *maximum width of 1000px* and placing it in the middle of the page from left to right. let the font-size of the header of the list be 32px.
+- alternate the image position on every list item so the image is on the left for even items and on the right for odd items. use the `float` property for this purpose. to prevent the list items from hovering over each other, apply the `clear` and `display`: table properties to each of them
+
+#### 4.3 examples
+
+![stage 04 inspirational video](./s04-1.png)
+![stage 04 weather](./s04-2.png)
+![stage 04 running distances](./s04-3.png)
 
 </details>
 
