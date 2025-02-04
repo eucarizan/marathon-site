@@ -8,6 +8,7 @@
     - [2: style iframes with css](#2-style-iframes-with-css)
     - [3: add disances and descriptions](#3-add-distances-and-descriptions)
     - [4: content styling](#4-content-styling)
+    - [5: add a map](#5-add-a-map)
 
 ## learning
 focus on htmls andc css: basic styles and positioning. use iframes to embed external content to your webpage. work with images and add animation.
@@ -121,6 +122,31 @@ in this stage, we will style the content added in the previous stage. we will ad
 ![stage 04 inspirational video](./s04-1.png)
 ![stage 04 weather](./s04-2.png)
 ![stage 04 running distances](./s04-3.png)
+
+</details>
+
+### 5: add a map
+<details>
+<summary>let's add a google map with the starting point so that runners and spectators don't get lost.</summary>
+
+#### 5.1 description
+In this stage, we will enhance the web page by adding the Google map with a starting point. The map will provide participants and spectators with a visual representation of the race location, ensuring they can easily find their way to the starting point. You will generate an embedded map using Google Maps and add a title to the map to enhance its visibility.
+
+#### 5.2 objectives
+- generate an embedded google map with the starting point location by following these steps:
+  1. go to [google maps](https://www.google.com/maps/).
+  2. in the _search google maps_ text box, type in the address of the location you want to display on your web page. we will use big ben as a starting point.
+  3. when the map appears, click on the *share* icon.
+  4. select the _embed a map_ tab on the share window.
+  5. click on the _copy html_ button to obtain the embedded map code.
+- create a block with the class `map-container` and place the copied map `iframe` in it
+- add a title (`h2`) to the map with the text `see you at big ben!` to indicate the event location.
+- position the map and title in an appropriate layout on the web page.
+- test the map functionality to verify that it displays the correct location and behaves as expected. please ensure that you are using the english language in your browser
+
+#### 5.3 examples
+
+![stage 5 marathon site design](./s05.png)
 
 </details>
 
