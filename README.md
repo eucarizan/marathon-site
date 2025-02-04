@@ -9,6 +9,7 @@
     - [3: add disances and descriptions](#3-add-distances-and-descriptions)
     - [4: content styling](#4-content-styling)
     - [5: add a map](#5-add-a-map)
+    - [6: animate images](#6-animate-images)
 
 ## learning
 focus on htmls andc css: basic styles and positioning. use iframes to embed external content to your webpage. work with images and add animation.
@@ -150,20 +151,27 @@ In this stage, we will enhance the web page by adding the Google map with a star
 
 </details>
 
-[<<](https://github.com/eucarizan/front-end/blob/main/README.md)
-<!--
-:%s/\(Sample \(Input\|Output\) \d:\)\n\(.*\)/```\r\r**\1**\r```\3/gc
-
-### 0: 
+### 6: animate images
 <details>
 <summary></summary>
 
-#### 0.1 description
+#### 6.1 description
+in the last stage, let's add animation effects to the images from stage 3 by adjusting their saturation. when the user hovers over an image, it will transition from its default state to full-color saturation. this will create a vibrant and dynamic effect.
 
-#### 0.2 objectives
+#### 6.2 objectives
+- add class `distance-image` for all images in the `distance` list.
+- apply a saturation of 100% to the images by default.
+- when the user hovers over an image, increase the saturation to 200%.
+- ensure that the animation effect is consistent for all the images in the list.
 
-#### 0.3 examples
+#### 6.3 examples
+
+![stage 6 marathon site design](./s06.gif)
 
 </details>
+
+[<<](https://github.com/eucarizan/front-end/blob/main/README.md)
+<!--
+:%s/\(Sample \(Input\|Output\) \d:\)\n\(.*\)/```\r\r**\1**\r```\3/gc
 -->
 
