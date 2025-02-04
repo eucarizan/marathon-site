@@ -93,3 +93,12 @@ body, iframe {
 .distance:nth-child(even) img {
   float: right;
 }
+
+.map-container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.map-container iframe {
+  width: 100%;
+}
