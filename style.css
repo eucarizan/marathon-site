@@ -94,11 +94,11 @@ body, iframe {
   filter: saturate(200%);
 }
 
-.distance:nth-child(odd) img {
+.distance:nth-child(odd) div {
   float: left;
 }
 
-.distance:nth-child(even) img {
+.distance:nth-child(even) div {
   float: right;
 }
 
