@@ -86,6 +86,14 @@ body, iframe {
   text-align: left;
 }
 
+.distance-image {
+  filter: saturate(100%);
+}
+
+.distance-image:hover {
+  filter: saturate(200%);
+}
+
 .distance:nth-child(odd) img {
   float: left;
 }
