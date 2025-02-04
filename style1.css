@@ -1,12 +1,12 @@
-body, iframe {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: Roboto, Helvetica Neue, Arial, sans-serif;
 }
 
 .iframe-container {
   width: 100vw;
+  position: relative;
 }
 
 .iframe-container:nth-of-type(1) {
@@ -27,51 +27,52 @@ body, iframe {
 
 .video-overlay {
   width: 100vw;
-  height: 80vh;
+  height: 100%;
   position: absolute;
-  background-color: #00000080;
+  background: #00000080;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   color: white;
   align-items: center;
+  text-align: center;
+  left: 0;
 }
 
 .video-overlay h1 {
   top: 150px;
-  text-align: center;
   color: white;
   font-size: 73px;
 }
 
 .video-overlay button {
   padding: 5px 10px;
-  border: 4px white solid;
+  border: 4px solid white;
   font-size: 24px;
   color: white;
   background: transparent;
+  cursor: pointer;
 }
 
 .distance-container {
   max-width: 1000px;
   margin: 0 auto;
-  text-align: center;
 }
 
 .distance-container h2 {
   font-size: 32px;
+  text-align: center;
 }
 
 .distance {
   display: table;
-  width: 100%;
   clear: both;
-  margin-bottom: 20px;
   padding: 10px;
 }
 
 .distance div {
   width: 40%;
+  margin: 10px;
 }
 
 .distance img {
@@ -86,10 +87,10 @@ body, iframe {
   text-align: left;
 }
 
-.distance:nth-child(odd) img {
-  float: left;
+.distance:nth-child(odd) div {
+  float: right;
 }
 
-.distance:nth-child(even) img {
-  float: right;
+.distance:nth-child(even) div {
+  float: left;
 }
